@@ -30,7 +30,7 @@ class Solution {
 
         // count pairs
         for (; i < n1; i++) {
-            while (j < n2 && a[i] > 2 * a[j])
+            while (j < n2 && a1[i] > 2 * 1L * a2[j])
                 j++;
             cnt += j;
         }
@@ -49,3 +49,4 @@ class Solution {
             a[k++] = a2[j++];
     }
 }
+// Time complexity : O(n*logn)
